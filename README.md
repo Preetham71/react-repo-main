@@ -1,1 +1,1 @@
-We hae few react concepts here
+We have few react concepts here in this repository
