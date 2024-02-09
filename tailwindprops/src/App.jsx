@@ -9,15 +9,15 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
+        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
-        <a href="https://react.dev" target="_blank">
+        <a href="https://react.dev" target="_blank" rel="noreferrer">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
       <h1 className='bg-green-400 text-black p-4 rounded-xl  mb-4'>Tailwind test</h1>
-      <Card username="bodi aur mode" btnText="Click me"/>
+      <Card username="bodiaurmode" btnText="Click me"/>
 
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
